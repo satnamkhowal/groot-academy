@@ -3,6 +3,8 @@ $posts = [
     ['title' => 'IT Career Course Guidance for Students in Jaipur', 'slug' => 'it-career-course-guidance-jaipur', 'description' => 'Choose a learning path across programming, development, analytics and digital marketing.'],
     ['title' => 'Software Development and Coding Career Guidance in Jaipur', 'slug' => 'software-development-coding-career-guide-jaipur', 'description' => 'Build programming fundamentals and move toward frontend, backend or full stack development.'],
     ['title' => 'Data Analytics and Power BI Career Guidance in Jaipur', 'slug' => 'data-analytics-power-bi-career-guide-jaipur', 'description' => 'Learn a practical roadmap with Excel, SQL, Power BI, Python and real datasets.'],
+    ['title' => 'Data Science and Machine Learning Career Guidance in Jaipur', 'slug' => 'data-science-machine-learning-career-guide-jaipur', 'description' => 'Move from Python, SQL and statistics into data analysis, machine learning and practical model projects.'],
+    ['title' => 'Generative AI and AI Tools Career Guidance in Jaipur', 'slug' => 'generative-ai-tools-career-guide-jaipur', 'description' => 'Explore prompt engineering, Python, APIs, LLM basics, AI tools, automation and practical AI projects.'],
     ['title' => 'Digital Marketing Career Guidance for Beginners in Jaipur', 'slug' => 'digital-marketing-career-guide-jaipur', 'description' => 'Explore SEO, social media, paid ads, content, email marketing and analytics.'],
     ['title' => 'Full Stack Web Development Career Guidance in Jaipur', 'slug' => 'full-stack-web-development-career-guide-jaipur', 'description' => 'Learn frontend, backend, databases, APIs, Git and complete web application development.'],
     ['title' => 'Python Programming Career Guidance for Beginners in Jaipur', 'slug' => 'python-programming-career-guide-jaipur', 'description' => 'Start with Python fundamentals and move into projects, web development, analytics and automation.'],
@@ -14,13 +16,27 @@ $posts = [
     ['title' => 'Excel and Advanced Excel Career Guidance in Jaipur', 'slug' => 'excel-advanced-excel-career-guide-jaipur', 'description' => 'Learn formulas, lookups, Pivot Tables, dashboards, data cleaning and business reporting.'],
 ];
 
+$itemList = [];
+foreach ($posts as $index => $post) {
+    $itemList[] = [
+        '@type' => 'ListItem',
+        'position' => $index + 1,
+        'name' => $post['title'],
+        'url' => 'https://grootacademy.com/blogs/' . $post['slug'] . '/',
+    ];
+}
+
 $collectionSchema = [
     '@context' => 'https://schema.org',
     '@type' => 'CollectionPage',
     'name' => 'Groot Academy Career & Technology Blog',
     'url' => 'https://grootacademy.com/blogs/',
-    'description' => 'Practical career guides for coding, development, data analytics, digital marketing and technology learning in Jaipur.',
+    'description' => 'Practical career guides for coding, development, data analytics, AI, digital marketing and technology learning in Jaipur.',
     'inLanguage' => 'en-IN',
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'itemListElement' => $itemList,
+    ],
 ];
 ?>
 <!doctype html>
@@ -29,13 +45,13 @@ $collectionSchema = [
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Technology & Career Guides in Jaipur | Groot Academy Blog</title>
-    <meta name="description" content="Explore practical Groot Academy guides for coding, web development, data analytics, SQL, Excel, digital marketing and IT career learning in Jaipur.">
+    <meta name="description" content="Explore practical Groot Academy guides for coding, web development, data analytics, AI, SQL, Excel, digital marketing and IT career learning in Jaipur.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://grootacademy.com/blogs/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Groot Academy">
     <meta property="og:title" content="Technology & Career Guides in Jaipur | Groot Academy Blog">
-    <meta property="og:description" content="Practical guides for students exploring coding, development, analytics, databases, Excel and digital marketing careers.">
+    <meta property="og:description" content="Practical guides for students exploring coding, development, analytics, AI, databases, Excel and digital marketing careers.">
     <meta property="og:url" content="https://grootacademy.com/blogs/">
     <link rel="stylesheet" href="/blogs/_shared/assets/blog.css">
     <script type="application/ld+json"><?= json_encode($collectionSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
