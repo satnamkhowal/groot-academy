@@ -12,33 +12,66 @@ Branch: `main`
 - AUDITED branches: only `main` exists at the time of this check.
 - No published topic-specific blog folders were present at the time of the audit.
 
-## SEO review
+## SEO review and shared improvements
 
-The existing template already supports title tags, meta descriptions, canonical URLs, robots directives, Open Graph tags, Twitter cards, and BlogPosting structured data. This pass will preserve the reusable architecture and improve shared SEO only where useful instead of rebuilding the template.
+- UPDATED `/blogs/_shared/partials/head.php` instead of replacing the existing template.
+- Preserved title, meta description, canonical, robots, Open Graph, Twitter card and BlogPosting support.
+- Added `og:site_name`, locale, article publish/modified metadata, stronger BlogPosting URL/mainEntityOfPage data, organization URLs and BreadcrumbList structured data.
+- CREATED `/blogs/index.php` as an indexable internal-link hub for all current guides.
+- CREATED `/blogs/sitemap.xml` covering the blog hub and all published topic URLs.
 
-## Current publishing batch
+## Published Google Business Profile support blogs
 
-Create SEO-focused blogs corresponding to Google Business Profile topics already prepared in the current Groot Academy workflow:
+1. CREATED `blogs/it-career-course-guidance-jaipur/index.php`
+   - https://grootacademy.com/blogs/it-career-course-guidance-jaipur/
+2. CREATED `blogs/software-development-coding-career-guide-jaipur/index.php`
+   - https://grootacademy.com/blogs/software-development-coding-career-guide-jaipur/
+3. CREATED `blogs/data-analytics-power-bi-career-guide-jaipur/index.php`
+   - https://grootacademy.com/blogs/data-analytics-power-bi-career-guide-jaipur/
+4. CREATED `blogs/digital-marketing-career-guide-jaipur/index.php`
+   - https://grootacademy.com/blogs/digital-marketing-career-guide-jaipur/
+5. CREATED `blogs/full-stack-web-development-career-guide-jaipur/index.php`
+   - https://grootacademy.com/blogs/full-stack-web-development-career-guide-jaipur/
+6. CREATED `blogs/python-programming-career-guide-jaipur/index.php`
+   - https://grootacademy.com/blogs/python-programming-career-guide-jaipur/
+7. CREATED `blogs/java-programming-software-development-jaipur/index.php`
+   - https://grootacademy.com/blogs/java-programming-software-development-jaipur/
+8. CREATED `blogs/mern-stack-react-development-career-guide-jaipur/index.php`
+   - https://grootacademy.com/blogs/mern-stack-react-development-career-guide-jaipur/
+9. CREATED `blogs/sql-database-career-guide-jaipur/index.php`
+   - https://grootacademy.com/blogs/sql-database-career-guide-jaipur/
+10. CREATED `blogs/web-designing-frontend-development-jaipur/index.php`
+    - https://grootacademy.com/blogs/web-designing-frontend-development-jaipur/
+11. CREATED `blogs/c-cpp-dsa-career-guide-jaipur/index.php`
+    - https://grootacademy.com/blogs/c-cpp-dsa-career-guide-jaipur/
+12. CREATED `blogs/excel-advanced-excel-career-guide-jaipur/index.php`
+    - https://grootacademy.com/blogs/excel-advanced-excel-career-guide-jaipur/
 
-1. IT course and career guidance
-2. Software development and coding career guidance
-3. Data Analytics and Power BI
-4. Digital Marketing
-5. Full Stack Web Development
-6. Python Programming
-7. Java Programming and Software Development
-8. MERN Stack and React Development
-9. SQL and Database Development
-10. Web Designing and Frontend Development
-11. C/C++ Programming with DSA
-12. Excel and Advanced Excel
+## Publishing rules applied
 
-Each page will use an SEO-friendly slug, a canonical `https://grootacademy.com/blogs/<slug>/` URL, index/follow robots, local Jaipur/Mansarovar relevance, practical-learning intent, internal links, FAQ content where helpful, and the shared template.
+- SEO-friendly lowercase slugs.
+- Unique SEO titles and meta descriptions.
+- Canonical URLs on `grootacademy.com`.
+- `index,follow` robots directives.
+- Jaipur/Mansarovar local relevance used naturally.
+- Search intent addressed with learning roadmaps, practical projects and FAQs.
+- Related guides internally linked where relevant.
+- No placement guarantees or unsupported job claims added.
 
 ## Image note
 
-The current GitHub connector can create/update UTF-8 text files but does not upload binary PNG/JPG files. Existing generated promotional images therefore are not being silently duplicated or replaced in this pass. Blog pages will remain valid without a featured image until the matching image asset is uploaded to the blog's `/images/` folder through a binary-capable workflow.
+The current GitHub connector can create/update UTF-8 text files but does not upload binary PNG/JPG files. Existing generated promotional images were therefore not silently duplicated or replaced. The blog pages remain valid without featured images until matching assets are uploaded to each blog's `/images/` directory through a binary-capable workflow; the template is ready to display them once `featured_image` is populated.
+
+## Future workflow
+
+Before any future AI-assisted repository task:
+
+1. Read `/logs` and recent repository changes.
+2. Check whether another tool has already completed overlapping work.
+3. If completed, improve SEO/correctness only when there is a clear benefit; otherwise skip duplication.
+4. For each new Groot Academy Google Business Profile topic, create or update its matching SEO blog and return the canonical blog URL for the GBP button/link.
+5. Record the work in `/logs`.
 
 ## Status
 
-IN PROGRESS — publishing batch started.
+COMPLETED — current 12-topic publishing batch, shared SEO improvements, blog index and blog sitemap are committed on `main`.
