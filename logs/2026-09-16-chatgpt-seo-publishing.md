@@ -73,6 +73,22 @@ After another repository check, the standalone Power BI / Business Intelligence 
 - UPDATED `/blogs/index.php` so the standalone Power BI guide is discoverable from the blog hub and included in ItemList structured data.
 - UPDATED `/blogs/sitemap.xml` with the standalone Power BI canonical URL.
 
+## Template hardening after user confirmation
+
+Before making the next round of changes, `/logs`, the full `/blogs` tree and the current `main` commit were checked again. No newer overlapping AI/tool commit was present, and all 15 previously requested GBP-support topics were already published, so no duplicate article folders were created.
+
+The existing template was kept and improved in place:
+
+- CREATED `blogs/_shared/blog-registry.php` as the single registry for published guides, descriptions, categories and related-guide relationships.
+- UPDATED `blogs/index.php` to read from the central registry instead of maintaining a second hard-coded list.
+- UPDATED `blogs/_shared/blog-layout.php` so every existing registered article automatically receives up to three contextually related internal links without editing all 15 article files individually.
+- UPDATED `blogs/_shared/assets/blog.css` with responsive related-guide cards using the existing design system.
+- UPDATED `blogs/_shared/partials/head.php` so local featured-image paths are converted to absolute URLs for structured data/Open Graph/Twitter metadata, added image alt metadata, article section metadata, author metadata and a publisher logo in BlogPosting schema.
+- UPDATED `blogs/_starter-blog/index.php` to match the current publication workflow: final slug, canonical, image folder, registry, sitemap, robots, logs and optional related-post overrides.
+- UPDATED `blogs/README.md` because the previous documentation referenced outdated `sample-blog` and `blog-data.php` paths that do not exist in the current implementation.
+
+Result: existing articles continue using the same shared template, while future design/SEO changes remain centralized and current articles gain stronger internal-link discovery automatically.
+
 ## Publishing rules applied
 
 - SEO-friendly lowercase slugs.
@@ -86,7 +102,7 @@ After another repository check, the standalone Power BI / Business Intelligence 
 
 ## Image note
 
-The current GitHub connector can create/update UTF-8 text files but does not upload binary PNG/JPG files. Existing generated promotional images were therefore not silently duplicated or replaced. The blog pages remain valid without featured images until matching assets are uploaded to each blog's `/images/` directory through a binary-capable workflow; the template is ready to display them once `featured_image` is populated.
+The current GitHub connector can create/update UTF-8 text files but does not upload binary PNG/JPG files. Existing generated promotional images were therefore not silently duplicated or replaced. The blog pages remain valid without featured images until matching assets are uploaded to each blog's `/images/` directory through a binary-capable workflow; the template now resolves local image paths into absolute SEO/social URLs automatically once those files are present.
 
 ## Future workflow
 
@@ -95,9 +111,11 @@ Before any future AI-assisted repository task:
 1. Read `/logs`, recent commits and current blog folders.
 2. Check whether another tool has already completed overlapping work.
 3. If completed, improve SEO/correctness only when there is a clear benefit; otherwise skip duplication.
-4. For each new Groot Academy Google Business Profile topic, create or update its matching SEO blog and return the canonical blog URL for the GBP button/link.
-5. Record the work in `/logs`.
+4. For each new Groot Academy Google Business Profile topic, create or update its matching SEO blog using `_starter-blog` and the shared template.
+5. Add the published page to `_shared/blog-registry.php` and `sitemap.xml`.
+6. Return the canonical blog URL for the GBP button/link.
+7. Record the work in `/logs`.
 
 ## Status
 
-COMPLETED — the original 12-topic batch is published, the Data Science and Generative AI guides are integrated, the standalone Power BI / Business Intelligence guide is published, and all 15 current guides are integrated into the blog hub and blog sitemap on `main`.
+COMPLETED — the original 12-topic batch is published, the Data Science and Generative AI guides are integrated, the standalone Power BI / Business Intelligence guide is published, all 15 current guides are integrated into the blog hub and sitemap, and the existing reusable template has now been hardened for centralized discovery, internal linking and future SEO publishing on `main`.
