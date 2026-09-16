@@ -10,7 +10,7 @@ Branch: `main`
 - AUDITED `/blogs`: reusable shared PHP template, shared assets/partials, README, and `_starter-blog` already existed.
 - AUDITED recent commits: the reusable blog system and starter structure had already been created, so that work was not duplicated.
 - AUDITED branches: only `main` exists at the time of this check.
-- No published topic-specific blog folders were present at the time of the audit.
+- No published topic-specific blog folders were present at the time of the initial audit.
 
 ## SEO review and shared improvements
 
@@ -18,7 +18,8 @@ Branch: `main`
 - Preserved title, meta description, canonical, robots, Open Graph, Twitter card and BlogPosting support.
 - Added `og:site_name`, locale, article publish/modified metadata, stronger BlogPosting URL/mainEntityOfPage data, organization URLs and BreadcrumbList structured data.
 - CREATED `/blogs/index.php` as an indexable internal-link hub for all current guides.
-- CREATED `/blogs/sitemap.xml` covering the blog hub and all published topic URLs.
+- CREATED `/blogs/sitemap.xml` covering the blog hub and published topic URLs.
+- UPDATED the blog hub with ItemList structured data after additional guides appeared.
 
 ## Published Google Business Profile support blogs
 
@@ -47,6 +48,21 @@ Branch: `main`
 12. CREATED `blogs/excel-advanced-excel-career-guide-jaipur/index.php`
     - https://grootacademy.com/blogs/excel-advanced-excel-career-guide-jaipur/
 
+## Concurrent AI/tool activity detected
+
+After the initial publishing batch was completed, new commits appeared on `main` from another active workflow. These were checked before making further changes:
+
+- AUDITED `blogs/data-science-machine-learning-career-guide-jaipur/index.php`
+  - https://grootacademy.com/blogs/data-science-machine-learning-career-guide-jaipur/
+  - Existing SEO title, description, canonical, index/follow, structured template usage, Jaipur relevance, practical roadmap, FAQs and internal links were already suitable. No content rewrite was necessary.
+- AUDITED `blogs/generative-ai-tools-career-guide-jaipur/index.php`
+  - https://grootacademy.com/blogs/generative-ai-tools-career-guide-jaipur/
+  - Existing SEO title, description, canonical, index/follow, structured template usage, responsible-AI section, FAQs and internal links were already suitable. No duplicate rewrite was made.
+- UPDATED `/blogs/index.php` to include both concurrent guides and ItemList structured data.
+- UPDATED `/blogs/sitemap.xml` to include both concurrent canonical URLs.
+
+This preserves work from other tools and applies only the missing SEO/discovery integration instead of duplicating their completed articles.
+
 ## Publishing rules applied
 
 - SEO-friendly lowercase slugs.
@@ -66,7 +82,7 @@ The current GitHub connector can create/update UTF-8 text files but does not upl
 
 Before any future AI-assisted repository task:
 
-1. Read `/logs` and recent repository changes.
+1. Read `/logs`, recent commits and current blog folders.
 2. Check whether another tool has already completed overlapping work.
 3. If completed, improve SEO/correctness only when there is a clear benefit; otherwise skip duplication.
 4. For each new Groot Academy Google Business Profile topic, create or update its matching SEO blog and return the canonical blog URL for the GBP button/link.
@@ -74,4 +90,4 @@ Before any future AI-assisted repository task:
 
 ## Status
 
-COMPLETED — current 12-topic publishing batch, shared SEO improvements, blog index and blog sitemap are committed on `main`.
+COMPLETED — the original 12-topic batch is published in the repository, two concurrently-created guides were audited without unnecessary rewrites, and all 14 current guides are integrated into the blog hub and blog sitemap on `main`.
