@@ -1,21 +1,6 @@
 <?php
-$posts = [
-    ['title' => 'IT Career Course Guidance for Students in Jaipur', 'slug' => 'it-career-course-guidance-jaipur', 'description' => 'Choose a learning path across programming, development, analytics and digital marketing.'],
-    ['title' => 'Software Development and Coding Career Guidance in Jaipur', 'slug' => 'software-development-coding-career-guide-jaipur', 'description' => 'Build programming fundamentals and move toward frontend, backend or full stack development.'],
-    ['title' => 'Data Analytics and Power BI Career Guidance in Jaipur', 'slug' => 'data-analytics-power-bi-career-guide-jaipur', 'description' => 'Learn a practical roadmap with Excel, SQL, Power BI, Python and real datasets.'],
-    ['title' => 'Power BI and Business Intelligence Career Guidance in Jaipur', 'slug' => 'power-bi-business-intelligence-career-guide-jaipur', 'description' => 'Build Power Query, data modelling, DAX, dashboard, KPI and business reporting skills with practical BI projects.'],
-    ['title' => 'Data Science and Machine Learning Career Guidance in Jaipur', 'slug' => 'data-science-machine-learning-career-guide-jaipur', 'description' => 'Move from Python, SQL and statistics into data analysis, machine learning and practical model projects.'],
-    ['title' => 'Generative AI and AI Tools Career Guidance in Jaipur', 'slug' => 'generative-ai-tools-career-guide-jaipur', 'description' => 'Explore prompt engineering, Python, APIs, LLM basics, AI tools, automation and practical AI projects.'],
-    ['title' => 'Digital Marketing Career Guidance for Beginners in Jaipur', 'slug' => 'digital-marketing-career-guide-jaipur', 'description' => 'Explore SEO, social media, paid ads, content, email marketing and analytics.'],
-    ['title' => 'Full Stack Web Development Career Guidance in Jaipur', 'slug' => 'full-stack-web-development-career-guide-jaipur', 'description' => 'Learn frontend, backend, databases, APIs, Git and complete web application development.'],
-    ['title' => 'Python Programming Career Guidance for Beginners in Jaipur', 'slug' => 'python-programming-career-guide-jaipur', 'description' => 'Start with Python fundamentals and move into projects, web development, analytics and automation.'],
-    ['title' => 'Java Programming and Software Development Career Guide in Jaipur', 'slug' => 'java-programming-software-development-jaipur', 'description' => 'Build Core Java skills, then progress to JDBC, SQL, Spring Boot and REST APIs.'],
-    ['title' => 'MERN Stack and React Development Career Guidance in Jaipur', 'slug' => 'mern-stack-react-development-career-guide-jaipur', 'description' => 'Learn JavaScript, React, Node.js, Express, MongoDB and full stack project development.'],
-    ['title' => 'SQL and Database Career Guidance for Students in Jaipur', 'slug' => 'sql-database-career-guide-jaipur', 'description' => 'Build database skills with queries, joins, subqueries, CRUD operations and practical datasets.'],
-    ['title' => 'Web Designing and Frontend Development Career Guide in Jaipur', 'slug' => 'web-designing-frontend-development-jaipur', 'description' => 'Learn HTML, CSS, responsive design, Bootstrap, JavaScript, UI basics and website projects.'],
-    ['title' => 'C, C++ and Data Structures Career Guidance in Jaipur', 'slug' => 'c-cpp-dsa-career-guide-jaipur', 'description' => 'Strengthen programming logic, OOP, Data Structures and Algorithms through coding practice.'],
-    ['title' => 'Excel and Advanced Excel Career Guidance in Jaipur', 'slug' => 'excel-advanced-excel-career-guide-jaipur', 'description' => 'Learn formulas, lookups, Pivot Tables, dashboards, data cleaning and business reporting.'],
-];
+$blogRegistry = require __DIR__ . '/_shared/blog-registry.php';
+$posts = array_values($blogRegistry);
 
 $itemList = [];
 foreach ($posts as $index => $post) {
