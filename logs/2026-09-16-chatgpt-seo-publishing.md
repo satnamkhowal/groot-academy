@@ -63,6 +63,16 @@ After the initial publishing batch was completed, new commits appeared on `main`
 
 This preserves work from other tools and applies only the missing SEO/discovery integration instead of duplicating their completed articles.
 
+## Follow-on execution
+
+After another repository check, the standalone Power BI / Business Intelligence GBP topic was still missing, so the next task was executed instead of redoing completed work:
+
+- CREATED `blogs/power-bi-business-intelligence-career-guide-jaipur/index.php`
+  - https://grootacademy.com/blogs/power-bi-business-intelligence-career-guide-jaipur/
+  - Includes Power Query, data modelling, DAX, dashboards, KPIs, practical BI projects, FAQs and related internal links.
+- UPDATED `/blogs/index.php` so the standalone Power BI guide is discoverable from the blog hub and included in ItemList structured data.
+- UPDATED `/blogs/sitemap.xml` with the standalone Power BI canonical URL.
+
 ## Publishing rules applied
 
 - SEO-friendly lowercase slugs.
@@ -90,4 +100,4 @@ Before any future AI-assisted repository task:
 
 ## Status
 
-COMPLETED — the original 12-topic batch is published in the repository, two concurrently-created guides were audited without unnecessary rewrites, and all 14 current guides are integrated into the blog hub and blog sitemap on `main`.
+COMPLETED — the original 12-topic batch is published, the Data Science and Generative AI guides are integrated, the standalone Power BI / Business Intelligence guide is published, and all 15 current guides are integrated into the blog hub and blog sitemap on `main`.
