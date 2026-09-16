@@ -1,0 +1,114 @@
+<?php
+/**
+ * Central registry for published Groot Academy blog guides.
+ *
+ * Add each new published blog here once. The blog hub and shared article
+ * layout use this registry for discovery and related-guide links.
+ */
+return [
+    'it-career-course-guidance-jaipur' => [
+        'title' => 'IT Career Course Guidance for Students in Jaipur',
+        'slug' => 'it-career-course-guidance-jaipur',
+        'description' => 'Choose a learning path across programming, development, analytics and digital marketing.',
+        'category' => 'Career Guidance',
+        'related' => ['software-development-coding-career-guide-jaipur', 'data-analytics-power-bi-career-guide-jaipur', 'digital-marketing-career-guide-jaipur'],
+    ],
+    'software-development-coding-career-guide-jaipur' => [
+        'title' => 'Software Development and Coding Career Guidance in Jaipur',
+        'slug' => 'software-development-coding-career-guide-jaipur',
+        'description' => 'Build programming fundamentals and move toward frontend, backend or full stack development.',
+        'category' => 'Software Development',
+        'related' => ['python-programming-career-guide-jaipur', 'java-programming-software-development-jaipur', 'full-stack-web-development-career-guide-jaipur'],
+    ],
+    'data-analytics-power-bi-career-guide-jaipur' => [
+        'title' => 'Data Analytics and Power BI Career Guidance in Jaipur',
+        'slug' => 'data-analytics-power-bi-career-guide-jaipur',
+        'description' => 'Learn a practical roadmap with Excel, SQL, Power BI, Python and real datasets.',
+        'category' => 'Data Analytics',
+        'related' => ['excel-advanced-excel-career-guide-jaipur', 'sql-database-career-guide-jaipur', 'power-bi-business-intelligence-career-guide-jaipur'],
+    ],
+    'power-bi-business-intelligence-career-guide-jaipur' => [
+        'title' => 'Power BI and Business Intelligence Career Guidance in Jaipur',
+        'slug' => 'power-bi-business-intelligence-career-guide-jaipur',
+        'description' => 'Build Power Query, data modelling, DAX, dashboard, KPI and business reporting skills with practical BI projects.',
+        'category' => 'Business Intelligence',
+        'related' => ['data-analytics-power-bi-career-guide-jaipur', 'excel-advanced-excel-career-guide-jaipur', 'sql-database-career-guide-jaipur'],
+    ],
+    'data-science-machine-learning-career-guide-jaipur' => [
+        'title' => 'Data Science and Machine Learning Career Guidance in Jaipur',
+        'slug' => 'data-science-machine-learning-career-guide-jaipur',
+        'description' => 'Move from Python, SQL and statistics into data analysis, machine learning and practical model projects.',
+        'category' => 'Data Science & Machine Learning',
+        'related' => ['python-programming-career-guide-jaipur', 'data-analytics-power-bi-career-guide-jaipur', 'generative-ai-tools-career-guide-jaipur'],
+    ],
+    'generative-ai-tools-career-guide-jaipur' => [
+        'title' => 'Generative AI and AI Tools Career Guidance in Jaipur',
+        'slug' => 'generative-ai-tools-career-guide-jaipur',
+        'description' => 'Explore prompt engineering, Python, APIs, LLM basics, AI tools, automation and practical AI projects.',
+        'category' => 'Generative AI',
+        'related' => ['data-science-machine-learning-career-guide-jaipur', 'python-programming-career-guide-jaipur', 'software-development-coding-career-guide-jaipur'],
+    ],
+    'digital-marketing-career-guide-jaipur' => [
+        'title' => 'Digital Marketing Career Guidance for Beginners in Jaipur',
+        'slug' => 'digital-marketing-career-guide-jaipur',
+        'description' => 'Explore SEO, social media, paid ads, content, email marketing and analytics.',
+        'category' => 'Digital Marketing',
+        'related' => ['it-career-course-guidance-jaipur', 'data-analytics-power-bi-career-guide-jaipur', 'web-designing-frontend-development-jaipur'],
+    ],
+    'full-stack-web-development-career-guide-jaipur' => [
+        'title' => 'Full Stack Web Development Career Guidance in Jaipur',
+        'slug' => 'full-stack-web-development-career-guide-jaipur',
+        'description' => 'Learn frontend, backend, databases, APIs, Git and complete web application development.',
+        'category' => 'Full Stack Development',
+        'related' => ['mern-stack-react-development-career-guide-jaipur', 'web-designing-frontend-development-jaipur', 'sql-database-career-guide-jaipur'],
+    ],
+    'python-programming-career-guide-jaipur' => [
+        'title' => 'Python Programming Career Guidance for Beginners in Jaipur',
+        'slug' => 'python-programming-career-guide-jaipur',
+        'description' => 'Start with Python fundamentals and move into projects, web development, analytics and automation.',
+        'category' => 'Python Programming',
+        'related' => ['data-science-machine-learning-career-guide-jaipur', 'software-development-coding-career-guide-jaipur', 'data-analytics-power-bi-career-guide-jaipur'],
+    ],
+    'java-programming-software-development-jaipur' => [
+        'title' => 'Java Programming and Software Development Career Guide in Jaipur',
+        'slug' => 'java-programming-software-development-jaipur',
+        'description' => 'Build Core Java skills, then progress to JDBC, SQL, Spring Boot and REST APIs.',
+        'category' => 'Java Programming',
+        'related' => ['software-development-coding-career-guide-jaipur', 'sql-database-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
+    ],
+    'mern-stack-react-development-career-guide-jaipur' => [
+        'title' => 'MERN Stack and React Development Career Guidance in Jaipur',
+        'slug' => 'mern-stack-react-development-career-guide-jaipur',
+        'description' => 'Learn JavaScript, React, Node.js, Express, MongoDB and full stack project development.',
+        'category' => 'MERN Stack',
+        'related' => ['full-stack-web-development-career-guide-jaipur', 'web-designing-frontend-development-jaipur', 'software-development-coding-career-guide-jaipur'],
+    ],
+    'sql-database-career-guide-jaipur' => [
+        'title' => 'SQL and Database Career Guidance for Students in Jaipur',
+        'slug' => 'sql-database-career-guide-jaipur',
+        'description' => 'Build database skills with queries, joins, subqueries, CRUD operations and practical datasets.',
+        'category' => 'SQL & Databases',
+        'related' => ['data-analytics-power-bi-career-guide-jaipur', 'excel-advanced-excel-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
+    ],
+    'web-designing-frontend-development-jaipur' => [
+        'title' => 'Web Designing and Frontend Development Career Guide in Jaipur',
+        'slug' => 'web-designing-frontend-development-jaipur',
+        'description' => 'Learn HTML, CSS, responsive design, Bootstrap, JavaScript, UI basics and website projects.',
+        'category' => 'Web Designing',
+        'related' => ['full-stack-web-development-career-guide-jaipur', 'mern-stack-react-development-career-guide-jaipur', 'digital-marketing-career-guide-jaipur'],
+    ],
+    'c-cpp-dsa-career-guide-jaipur' => [
+        'title' => 'C, C++ and Data Structures Career Guidance in Jaipur',
+        'slug' => 'c-cpp-dsa-career-guide-jaipur',
+        'description' => 'Strengthen programming logic, OOP, Data Structures and Algorithms through coding practice.',
+        'category' => 'C, C++ & DSA',
+        'related' => ['software-development-coding-career-guide-jaipur', 'java-programming-software-development-jaipur', 'python-programming-career-guide-jaipur'],
+    ],
+    'excel-advanced-excel-career-guide-jaipur' => [
+        'title' => 'Excel and Advanced Excel Career Guidance in Jaipur',
+        'slug' => 'excel-advanced-excel-career-guide-jaipur',
+        'description' => 'Learn formulas, lookups, Pivot Tables, dashboards, data cleaning and business reporting.',
+        'category' => 'Excel & Reporting',
+        'related' => ['data-analytics-power-bi-career-guide-jaipur', 'power-bi-business-intelligence-career-guide-jaipur', 'sql-database-career-guide-jaipur'],
+    ],
+];
