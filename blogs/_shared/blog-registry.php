@@ -95,7 +95,14 @@ return [
         'slug' => 'web-designing-frontend-development-jaipur',
         'description' => 'Learn HTML, CSS, responsive design, Bootstrap, JavaScript, UI basics and website projects.',
         'category' => 'Web Designing',
-        'related' => ['full-stack-web-development-career-guide-jaipur', 'mern-stack-react-development-career-guide-jaipur', 'digital-marketing-career-guide-jaipur'],
+        'related' => ['ui-ux-design-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'mern-stack-react-development-career-guide-jaipur'],
+    ],
+    'ui-ux-design-career-guide-jaipur' => [
+        'title' => 'UI/UX Design Career Guidance for Beginners in Jaipur',
+        'slug' => 'ui-ux-design-career-guide-jaipur',
+        'description' => 'Learn user research, wireframes, Figma, responsive interfaces, prototypes and portfolio-focused UI/UX design.',
+        'category' => 'UI/UX Design',
+        'related' => ['web-designing-frontend-development-jaipur', 'full-stack-web-development-career-guide-jaipur', 'digital-marketing-career-guide-jaipur'],
     ],
     'c-cpp-dsa-career-guide-jaipur' => [
         'title' => 'C, C++ and Data Structures Career Guidance in Jaipur',
