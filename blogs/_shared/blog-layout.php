@@ -6,6 +6,30 @@ if (!isset($blog) || !is_array($blog)) {
 $blogContent = $blogContent ?? '';
 $esc = static fn($value) => htmlspecialchars((string) $value, ENT_QUOTES, 'UTF-8');
 
+// Resolve the current article in the central registry so every published guide
+// can receive useful internal links without editing each article individually.
+$currentSlug = trim((string) ($blog['slug'] ?? ''));
+if ($currentSlug === '' && !empty($blog['canonical'])) {
+    $canonicalPath = parse_url((string) $blog['canonical'], PHP_URL_PATH);
+    if (is_string($canonicalPath)) {
+        $currentSlug = basename(rtrim($canonicalPath, '/'));
+    }
+}
+
+$relatedGuides = [];
+$registryPath = __DIR__ . '/blog-registry.php';
+if ($currentSlug !== '' && is_file($registryPath)) {
+    $blogRegistry = require $registryPath;
+    if (isset($blogRegistry[$currentSlug])) {
+        $relatedSlugs = $blog['related_posts'] ?? $blogRegistry[$currentSlug]['related'] ?? [];
+        foreach ((array) $relatedSlugs as $relatedSlug) {
+            if (isset($blogRegistry[$relatedSlug])) {
+                $relatedGuides[] = $blogRegistry[$relatedSlug];
+            }
+        }
+    }
+}
+
 require __DIR__ . '/partials/head.php';
 require __DIR__ . '/partials/header.php';
 ?>
@@ -40,6 +64,7 @@ require __DIR__ . '/partials/header.php';
                             src="<?= $esc($blog['featured_image']) ?>"
                             alt="<?= $esc($blog['featured_image_alt'] ?? $blog['title'] ?? '') ?>"
                             loading="eager"
+                            fetchpriority="high"
                         >
                     </figure>
                 <?php endif; ?>
@@ -47,6 +72,24 @@ require __DIR__ . '/partials/header.php';
                 <div class="ga-blog-content">
                     <?= $blogContent ?>
                 </div>
+
+                <?php if (!empty($relatedGuides)): ?>
+                    <section class="ga-related-guides" aria-labelledby="related-guides-title">
+                        <div class="ga-related-heading">
+                            <h2 id="related-guides-title">Related career guides</h2>
+                            <a href="/blogs/">View all guides</a>
+                        </div>
+                        <div class="ga-related-grid">
+                            <?php foreach (array_slice($relatedGuides, 0, 3) as $related): ?>
+                                <article class="ga-related-card">
+                                    <?php if (!empty($related['category'])): ?><span><?= $esc($related['category']) ?></span><?php endif; ?>
+                                    <h3><a href="/blogs/<?= $esc($related['slug']) ?>/"><?= $esc($related['title']) ?></a></h3>
+                                    <?php if (!empty($related['description'])): ?><p><?= $esc($related['description']) ?></p><?php endif; ?>
+                                </article>
+                            <?php endforeach; ?>
+                        </div>
+                    </section>
+                <?php endif; ?>
 
                 <?php if (!empty($blog['cta_title']) || !empty($blog['cta_text'])): ?>
                     <section class="ga-blog-cta">
