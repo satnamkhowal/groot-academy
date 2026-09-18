@@ -17,7 +17,7 @@ $collectionSchema = [
     '@type' => 'CollectionPage',
     'name' => 'Groot Academy Career & Technology Blog',
     'url' => 'https://grootacademy.com/blogs/',
-    'description' => 'Practical career guides for coding, development, Mobile App Development, Cyber Security, DevOps, Cloud Computing, data analytics, Business Intelligence, AI, digital marketing and technology learning in Jaipur.',
+    'description' => 'Practical career guides for coding, development, Graphic Design, Mobile App Development, Cyber Security, DevOps, Cloud Computing, data analytics, Business Intelligence, AI and digital marketing in Jaipur.',
     'inLanguage' => 'en-IN',
     'mainEntity' => [
         '@type' => 'ItemList',
@@ -31,13 +31,13 @@ $collectionSchema = [
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Technology & Career Guides in Jaipur | Groot Academy Blog</title>
-    <meta name="description" content="Explore Groot Academy guides for coding, web development, Flutter, Mobile App Development, Cyber Security, DevOps, Cloud Computing, AWS, data analytics, Power BI and AI in Jaipur.">
+    <meta name="description" content="Explore Groot Academy guides for coding, web development, Graphic Design, Flutter, Mobile App Development, Cyber Security, DevOps, Cloud Computing, data analytics, Power BI and AI in Jaipur.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://grootacademy.com/blogs/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Groot Academy">
     <meta property="og:title" content="Technology & Career Guides in Jaipur | Groot Academy Blog">
-    <meta property="og:description" content="Practical guides for students exploring coding, development, Flutter, mobile apps, Cyber Security, DevOps, Cloud Computing, AWS, analytics, Power BI, AI and digital careers.">
+    <meta property="og:description" content="Practical guides for students exploring coding, development, Graphic Design, Flutter, mobile apps, Cyber Security, DevOps, Cloud Computing, analytics, Power BI, AI and digital careers.">
     <meta property="og:url" content="https://grootacademy.com/blogs/">
     <link rel="stylesheet" href="/blogs/_shared/assets/blog.css">
     <script type="application/ld+json"><?= json_encode($collectionSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
