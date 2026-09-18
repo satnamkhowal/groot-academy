@@ -118,4 +118,11 @@ return [
         'category' => 'Cloud Computing',
         'related' => ['full-stack-web-development-career-guide-jaipur', 'software-development-coding-career-guide-jaipur', 'python-programming-career-guide-jaipur'],
     ],
+    'devops-ci-cd-career-guide-jaipur' => [
+        'title' => 'DevOps and CI/CD Career Guidance in Jaipur',
+        'slug' => 'devops-ci-cd-career-guide-jaipur',
+        'description' => 'Learn Linux, Git, Docker, CI/CD, cloud deployment, monitoring and automation through practical DevOps projects.',
+        'category' => 'DevOps',
+        'related' => ['cloud-computing-aws-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'software-development-coding-career-guide-jaipur'],
+    ],
 ];
