@@ -139,4 +139,11 @@ return [
         'category' => 'Mobile App Development',
         'related' => ['full-stack-web-development-career-guide-jaipur', 'software-development-coding-career-guide-jaipur', 'ui-ux-design-career-guide-jaipur'],
     ],
+    'graphic-design-career-guide-jaipur' => [
+        'title' => 'Graphic Design Career Guidance in Jaipur',
+        'slug' => 'graphic-design-career-guide-jaipur',
+        'description' => 'Learn design fundamentals, Photoshop, Illustrator, Canva, branding, social media creatives and portfolio development.',
+        'category' => 'Graphic Design',
+        'related' => ['ui-ux-design-career-guide-jaipur', 'digital-marketing-career-guide-jaipur', 'web-designing-frontend-development-jaipur'],
+    ],
 ];
