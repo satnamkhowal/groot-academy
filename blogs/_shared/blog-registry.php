@@ -146,4 +146,11 @@ return [
         'category' => 'Graphic Design',
         'related' => ['ui-ux-design-career-guide-jaipur', 'digital-marketing-career-guide-jaipur', 'web-designing-frontend-development-jaipur'],
     ],
+    'video-editing-motion-graphics-career-guide-jaipur' => [
+        'title' => 'Video Editing and Motion Graphics Career Guidance in Jaipur',
+        'slug' => 'video-editing-motion-graphics-career-guide-jaipur',
+        'description' => 'Learn video editing fundamentals, Premiere Pro, After Effects, audio, colour, motion graphics and portfolio development.',
+        'category' => 'Video Editing',
+        'related' => ['graphic-design-career-guide-jaipur', 'digital-marketing-career-guide-jaipur', 'ui-ux-design-career-guide-jaipur'],
+    ],
 ];
