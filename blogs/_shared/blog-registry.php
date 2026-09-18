@@ -111,4 +111,11 @@ return [
         'category' => 'Excel & Reporting',
         'related' => ['data-analytics-power-bi-career-guide-jaipur', 'power-bi-business-intelligence-career-guide-jaipur', 'sql-database-career-guide-jaipur'],
     ],
+    'cloud-computing-aws-career-guide-jaipur' => [
+        'title' => 'Cloud Computing and AWS Career Guidance in Jaipur',
+        'slug' => 'cloud-computing-aws-career-guide-jaipur',
+        'description' => 'Learn cloud foundations, Linux, networking, IAM, EC2, S3, databases and practical AWS deployment workflows.',
+        'category' => 'Cloud Computing',
+        'related' => ['full-stack-web-development-career-guide-jaipur', 'software-development-coding-career-guide-jaipur', 'python-programming-career-guide-jaipur'],
+    ],
 ];
