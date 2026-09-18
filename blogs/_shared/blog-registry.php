@@ -132,4 +132,11 @@ return [
         'category' => 'Cyber Security',
         'related' => ['cloud-computing-aws-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur', 'software-development-coding-career-guide-jaipur'],
     ],
+    'flutter-mobile-app-development-career-guide-jaipur' => [
+        'title' => 'Flutter and Mobile App Development Career Guidance in Jaipur',
+        'slug' => 'flutter-mobile-app-development-career-guide-jaipur',
+        'description' => 'Learn Dart, Flutter widgets, responsive UI, navigation, APIs, Firebase and practical mobile app development.',
+        'category' => 'Mobile App Development',
+        'related' => ['full-stack-web-development-career-guide-jaipur', 'software-development-coding-career-guide-jaipur', 'ui-ux-design-career-guide-jaipur'],
+    ],
 ];
