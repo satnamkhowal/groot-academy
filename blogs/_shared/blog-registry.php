@@ -153,4 +153,11 @@ return [
         'category' => 'Video Editing',
         'related' => ['graphic-design-career-guide-jaipur', 'digital-marketing-career-guide-jaipur', 'ui-ux-design-career-guide-jaipur'],
     ],
+    'wordpress-website-development-career-guide-jaipur' => [
+        'title' => 'WordPress Website Development Career Guidance in Jaipur',
+        'slug' => 'wordpress-website-development-career-guide-jaipur',
+        'description' => 'Learn WordPress setup, themes, plugins, Elementor, WooCommerce, SEO basics and practical website development.',
+        'category' => 'WordPress Development',
+        'related' => ['web-designing-frontend-development-jaipur', 'digital-marketing-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
+    ],
 ];
