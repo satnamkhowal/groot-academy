@@ -160,4 +160,11 @@ return [
         'category' => 'WordPress Development',
         'related' => ['web-designing-frontend-development-jaipur', 'digital-marketing-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
     ],
+    'software-testing-qa-automation-career-guide-jaipur' => [
+        'title' => 'Software Testing, QA and Automation Career Guidance in Jaipur',
+        'slug' => 'software-testing-qa-automation-career-guide-jaipur',
+        'description' => 'Learn manual testing, test cases, bug reporting, API testing, SQL, Selenium basics and automation fundamentals.',
+        'category' => 'Software Testing & QA',
+        'related' => ['software-development-coding-career-guide-jaipur', 'java-programming-software-development-jaipur', 'devops-ci-cd-career-guide-jaipur'],
+    ],
 ];
