@@ -167,4 +167,11 @@ return [
         'category' => 'Software Testing & QA',
         'related' => ['software-development-coding-career-guide-jaipur', 'java-programming-software-development-jaipur', 'devops-ci-cd-career-guide-jaipur'],
     ],
+    'php-mysql-backend-development-career-guide-jaipur' => [
+        'title' => 'PHP, MySQL and Backend Development Career Guidance in Jaipur',
+        'slug' => 'php-mysql-backend-development-career-guide-jaipur',
+        'description' => 'Learn PHP, MySQL, forms, sessions, CRUD, authentication, APIs and practical backend web application development.',
+        'category' => 'Backend Development',
+        'related' => ['full-stack-web-development-career-guide-jaipur', 'sql-database-career-guide-jaipur', 'wordpress-website-development-career-guide-jaipur'],
+    ],
 ];
