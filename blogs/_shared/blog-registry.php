@@ -125,4 +125,11 @@ return [
         'category' => 'DevOps',
         'related' => ['cloud-computing-aws-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'software-development-coding-career-guide-jaipur'],
     ],
+    'cyber-security-ethical-hacking-career-guide-jaipur' => [
+        'title' => 'Cyber Security and Ethical Hacking Career Guidance in Jaipur',
+        'slug' => 'cyber-security-ethical-hacking-career-guide-jaipur',
+        'description' => 'Learn networking, Linux, web security, monitoring and ethical hacking concepts through authorised practical labs.',
+        'category' => 'Cyber Security',
+        'related' => ['cloud-computing-aws-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur', 'software-development-coding-career-guide-jaipur'],
+    ],
 ];
