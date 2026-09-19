@@ -1,0 +1,19 @@
+<?php require_once dirname(__DIR__) . '/includes/site-paths.php'; ?>
+<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IT & Software Courses in Jaipur | Groot Academy</title><meta name="description" content="Explore programming, Java, Python, Full Stack, Data Science, Data Analytics, web development and backend training at Groot Academy Jaipur."><link rel="canonical" href="https://grootacademy.com/courses/"><?php require dirname(__DIR__) . '/includes/theme-head.php'; ?></head><body><?php require dirname(__DIR__) . '/includes/theme-header.php'; ?>
+<main><section class="ga-simple-hero"><div class="container"><span class="ga-pill">Course Directory</span><h1>IT & Software Courses in Jaipur</h1><p>Legacy course families reorganized into a stable directory while detailed pages are migrated batch by batch.</p></div></section><section class="ga-content-section"><div class="container"><div class="row">
+<?php $items=[
+['C Programming','C fundamentals and logic building','c-programming-course-card-by-groot-academy.png','blogs/c-cpp-dsa-career-guide-jaipur/'],
+['C++ Programming','OOP, problem solving and DSA foundations','cpp-programming-course-card-by-groot-academy.png','blogs/c-cpp-dsa-career-guide-jaipur/'],
+['Core Java','Java fundamentals and object-oriented programming','core-java-course-card-by-groot-academy.png','blogs/java-programming-software-development-jaipur/'],
+['Advance Java','Progress toward Java backend development','advance-java-course-card-by-groot-academy.png','blogs/java-programming-software-development-jaipur/'],
+['Python Programming','Python programming and project practice','python-programming-course-card-by-groot-academy.png','blogs/python-programming-career-guide-jaipur/'],
+['Data Science','Python-based data science and ML learning path','data-science-programming-course-card-by-groot-academy.png','blogs/data-science-machine-learning-career-guide-jaipur/'],
+['Data Science with Python','Data analysis, Python and ML foundations','data-science-with-python-course-card-by-groot-academy.png','blogs/data-science-machine-learning-career-guide-jaipur/'],
+['Data Analysis with Python','Practical analysis and reporting foundations','data-analysis-with-python-course-card-by-groot-academy.png','blogs/data-analytics-power-bi-career-guide-jaipur/'],
+['Web Designing','HTML, CSS and responsive frontend foundations','web-designing-programming-course-card-by-groot-academy.png','blogs/web-designing-frontend-development-jaipur/'],
+['React JS','Modern JavaScript frontend development','reactJs-programming-course-card-by-groot-academy.png','blogs/mern-stack-react-development-career-guide-jaipur/'],
+['Node.js','JavaScript backend and API development path','nodeJs-programming-course-card-by-groot-academy.png','blogs/mern-stack-react-development-career-guide-jaipur/'],
+['PHP','PHP and MySQL backend development','php-programming-course-card-by-groot-academy.png','blogs/php-mysql-backend-development-career-guide-jaipur/']
+]; foreach($items as $x): ?>
+<div class="col-lg-4 col-md-6 mb-30"><article class="ga-content-card"><img class="ga-card-img" src="<?= htmlspecialchars(ga_post_card($x[2]),ENT_QUOTES,'UTF-8') ?>" alt="<?= htmlspecialchars($x[0],ENT_QUOTES,'UTF-8') ?>"><div class="body"><h3><?= htmlspecialchars($x[0],ENT_QUOTES,'UTF-8') ?></h3><p><?= htmlspecialchars($x[1],ENT_QUOTES,'UTF-8') ?></p><a href="<?= htmlspecialchars(ga_url($x[3]),ENT_QUOTES,'UTF-8') ?>">Read guide →</a></div></article></div><?php endforeach; ?>
+</div></div></section></main><?php require dirname(__DIR__) . '/includes/theme-footer.php'; ?></body></html>
