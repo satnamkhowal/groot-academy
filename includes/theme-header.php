@@ -1,0 +1,5 @@
+<?php require_once __DIR__ . '/site-paths.php'; ?>
+<header class="ga-migration-nav" role="banner"><div class="container inner">
+<a href="<?= htmlspecialchars(ga_url(), ENT_QUOTES, 'UTF-8') ?>" aria-label="Groot Academy home"><img src="<?= htmlspecialchars(ga_asset('images/Groot-Logo-transparent.png'), ENT_QUOTES, 'UTF-8') ?>" alt="Groot Academy"></a>
+<nav class="ga-migration-menu" aria-label="Primary"><a href="<?= htmlspecialchars(ga_url(), ENT_QUOTES, 'UTF-8') ?>">Home</a><a href="<?= htmlspecialchars(ga_url('courses/'), ENT_QUOTES, 'UTF-8') ?>">Courses</a><a href="<?= htmlspecialchars(ga_url('blogs/'), ENT_QUOTES, 'UTF-8') ?>">Blogs</a><a href="<?= htmlspecialchars(ga_url('about-us/'), ENT_QUOTES, 'UTF-8') ?>">About</a><a href="<?= htmlspecialchars(ga_url('contact-us/'), ENT_QUOTES, 'UTF-8') ?>">Contact</a><a class="readon green-btn" href="https://wa.me/918233266276" target="_blank" rel="noopener">WhatsApp</a></nav>
+</div></header>
