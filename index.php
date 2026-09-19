@@ -1,0 +1,25 @@
+<?php require_once __DIR__ . '/includes/site-paths.php'; ?>
+<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Groot Academy Jaipur | Full Stack, Data Analytics, Python & Java Courses</title>
+<meta name="description" content="Groot Academy Jaipur offers practical training in Full Stack Development, Python, Java, Data Analytics, Data Science, C/C++, web development and digital skills with project-focused learning.">
+<meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://grootacademy.com/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Groot Academy"><meta property="og:title" content="Groot Academy Jaipur | Practical IT & Software Training"><meta property="og:description" content="Build practical coding, development, analytics and digital skills with project-focused training in Jaipur."><meta property="og:url" content="https://grootacademy.com/">
+<?php require __DIR__ . '/includes/theme-head.php'; ?></head><body class="defult-home"><?php require __DIR__ . '/includes/theme-header.php'; ?>
+<main>
+<section class="rs-banner style10"><div class="container"><div class="row align-items-center">
+<div class="col-lg-6 pr-0"><div class="banner-content"><div class="sl-sub-title">Practical IT Training in Jaipur</div><h1 class="sl-title">Build Job-Relevant Skills in Coding, Full Stack, Data & Digital Technologies</h1><p>Learn through structured classes, guided practice and project work with course paths recovered from the legacy Groot Academy site and moved into a safer shared theme.</p><div class="banner-btn"><a class="readon green-banner" href="<?= htmlspecialchars(ga_url('courses/'),ENT_QUOTES,'UTF-8') ?>">Explore Courses</a> <a class="readon green-banner" href="tel:+918233266276">Call for Counselling</a></div></div></div>
+<div class="col-lg-6 pl-60"><div class="img-part"><img src="<?= htmlspecialchars(ga_asset('images/banner/home12/1.png'),ENT_QUOTES,'UTF-8') ?>" alt="Groot Academy IT training in Jaipur"></div></div>
+</div></div></section>
+<section class="ga-content-section"><div class="container"><div class="sec-title4 text-center mb-50"><div class="sub-title">Popular Learning Tracks</div><h2 class="title purple-color">Start with a Practical Course</h2></div><div class="row">
+<?php $courses=[
+['C & C++ Programming','Programming fundamentals, logic building, OOP and problem solving.','c-programming-course-card-by-groot-academy.png','c-cpp-dsa-career-guide-jaipur'],
+['Python Programming','Python fundamentals, automation foundations and project-oriented practice.','python-programming-course-card-by-groot-academy.png','python-programming-career-guide-jaipur'],
+['Core & Advance Java','Core Java, OOP and a path toward backend/framework development.','core-java-course-card-by-groot-academy.png','java-programming-software-development-jaipur'],
+['Data Science','Python, data analysis and a pathway toward machine learning projects.','data-science-programming-course-card-by-groot-academy.png','data-science-machine-learning-career-guide-jaipur'],
+['Web Designing','HTML, CSS, responsive layouts and frontend development foundations.','web-designing-programming-course-card-by-groot-academy.png','web-designing-frontend-development-jaipur'],
+['React & Node.js','Modern JavaScript frontend/backend skills for full-stack applications.','reactJs-programming-course-card-by-groot-academy.png','mern-stack-react-development-career-guide-jaipur']
+]; foreach($courses as $c): ?>
+<div class="col-lg-4 col-md-6 mb-30"><article class="ga-content-card"><img class="ga-card-img" src="<?= htmlspecialchars(ga_post_card($c[2]),ENT_QUOTES,'UTF-8') ?>" alt="<?= htmlspecialchars($c[0],ENT_QUOTES,'UTF-8') ?> course"><div class="body"><span class="ga-pill">Groot Academy</span><h3><?= htmlspecialchars($c[0],ENT_QUOTES,'UTF-8') ?></h3><p><?= htmlspecialchars($c[1],ENT_QUOTES,'UTF-8') ?></p><a href="<?= htmlspecialchars(ga_url('blogs/'.$c[3].'/'),ENT_QUOTES,'UTF-8') ?>">View learning guide →</a></div></article></div>
+<?php endforeach; ?></div><div class="text-center pt-20"><a class="readon green-btn" href="<?= htmlspecialchars(ga_url('courses/'),ENT_QUOTES,'UTF-8') ?>">View All Courses</a></div></div></section>
+<section class="why-choose-us style3 ga-content-section"><div class="container"><div class="row align-items-center"><div class="col-lg-6 md-mb-40"><img src="<?= htmlspecialchars(ga_asset('images/choose/home12/1.png'),ENT_QUOTES,'UTF-8') ?>" alt="Practical learning at Groot Academy"></div><div class="col-lg-6 pl-60 md-pl-15"><div class="sec-title3"><div class="sub-title green-color">Practical Learning</div><h2 class="title new-title">Learn concepts, practise them, then build</h2><p>Useful legacy content is being retained while duplicate WordPress thumbnails, obsolete runtime files and unsafe configuration are excluded. Shared templates and stable asset paths keep the new site easier to maintain.</p></div></div></div></div></section>
+</main><?php require __DIR__ . '/includes/theme-footer.php'; ?></body></html>
