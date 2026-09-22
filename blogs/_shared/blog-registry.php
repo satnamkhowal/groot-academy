@@ -202,4 +202,11 @@ return [
         'category' => 'Git & GitHub',
         'related' => ['software-development-coding-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
     ],
+    'computer-networking-ccna-career-guide-jaipur' => [
+        'title' => 'Computer Networking and CCNA Career Guidance in Jaipur',
+        'slug' => 'computer-networking-ccna-career-guide-jaipur',
+        'description' => 'Learn TCP/IP, subnetting, switching, routing, VLANs, DHCP, DNS and troubleshooting through practical network labs.',
+        'category' => 'Computer Networking',
+        'related' => ['linux-system-administration-career-guide-jaipur', 'cyber-security-ethical-hacking-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur'],
+    ],
 ];
