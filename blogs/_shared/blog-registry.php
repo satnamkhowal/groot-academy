@@ -251,4 +251,11 @@ return [
         'category' => 'TypeScript & JavaScript',
         'related' => ['mern-stack-react-development-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
     ],
+    'angular-frontend-development-career-guide-jaipur' => [
+        'title' => 'Angular Frontend Development Career Guidance in Jaipur',
+        'slug' => 'angular-frontend-development-career-guide-jaipur',
+        'description' => 'Learn TypeScript, Angular components, routing, forms, services, APIs, RxJS basics and practical frontend development.',
+        'category' => 'Angular Development',
+        'related' => ['typescript-modern-javascript-career-guide-jaipur', 'web-designing-frontend-development-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
+    ],
 ];
