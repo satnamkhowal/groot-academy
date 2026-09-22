@@ -272,4 +272,11 @@ return [
         'category' => 'GraphQL & APIs',
         'related' => ['rest-api-development-postman-career-guide-jaipur', 'typescript-modern-javascript-career-guide-jaipur', 'mongodb-nosql-database-career-guide-jaipur'],
     ],
+    'nextjs-full-stack-react-career-guide-jaipur' => [
+        'title' => 'Next.js Full Stack React Career Guidance in Jaipur',
+        'slug' => 'nextjs-full-stack-react-career-guide-jaipur',
+        'description' => 'Learn React, Next.js App Router, server components, data fetching, API routes, authentication and deployment.',
+        'category' => 'Next.js & React',
+        'related' => ['mern-stack-react-development-career-guide-jaipur', 'typescript-modern-javascript-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
+    ],
 ];
