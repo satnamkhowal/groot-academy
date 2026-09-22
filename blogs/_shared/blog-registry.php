@@ -223,4 +223,11 @@ return [
         'category' => 'Kubernetes & Containers',
         'related' => ['devops-ci-cd-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur', 'linux-system-administration-career-guide-jaipur'],
     ],
+    'docker-containerization-career-guide-jaipur' => [
+        'title' => 'Docker and Containerization Career Guidance in Jaipur',
+        'slug' => 'docker-containerization-career-guide-jaipur',
+        'description' => 'Learn Docker images, containers, Dockerfiles, ports, volumes, networks, Docker Compose and practical deployment workflows.',
+        'category' => 'Docker & Containers',
+        'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur'],
+    ],
 ];
