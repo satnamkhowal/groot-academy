@@ -209,4 +209,11 @@ return [
         'category' => 'Computer Networking',
         'related' => ['linux-system-administration-career-guide-jaipur', 'cyber-security-ethical-hacking-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur'],
     ],
+    'rest-api-development-postman-career-guide-jaipur' => [
+        'title' => 'REST API Development and Postman Career Guidance in Jaipur',
+        'slug' => 'rest-api-development-postman-career-guide-jaipur',
+        'description' => 'Learn HTTP methods, JSON, status codes, RESTful endpoints, Postman, authentication and backend API integration.',
+        'category' => 'API Development',
+        'related' => ['full-stack-web-development-career-guide-jaipur', 'php-mysql-backend-development-career-guide-jaipur', 'django-python-web-development-career-guide-jaipur'],
+    ],
 ];
