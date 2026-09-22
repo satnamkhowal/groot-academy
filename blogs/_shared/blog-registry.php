@@ -279,4 +279,11 @@ return [
         'category' => 'Next.js & React',
         'related' => ['mern-stack-react-development-career-guide-jaipur', 'typescript-modern-javascript-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
     ],
+    'react-native-mobile-app-development-career-guide-jaipur' => [
+        'title' => 'React Native Mobile App Development Career Guidance in Jaipur',
+        'slug' => 'react-native-mobile-app-development-career-guide-jaipur',
+        'description' => 'Learn JavaScript, React Native components, navigation, APIs, state, Firebase and cross-platform mobile app development.',
+        'category' => 'React Native',
+        'related' => ['typescript-modern-javascript-career-guide-jaipur', 'firebase-backend-as-a-service-career-guide-jaipur', 'flutter-mobile-app-development-career-guide-jaipur'],
+    ],
 ];
