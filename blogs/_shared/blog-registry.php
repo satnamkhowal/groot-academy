@@ -293,4 +293,11 @@ return [
         'category' => 'Node.js & Express',
         'related' => ['rest-api-development-postman-career-guide-jaipur', 'mongodb-nosql-database-career-guide-jaipur', 'typescript-modern-javascript-career-guide-jaipur'],
     ],
+    'python-automation-scripting-career-guide-jaipur' => [
+        'title' => 'Python Automation and Scripting Career Guidance in Jaipur',
+        'slug' => 'python-automation-scripting-career-guide-jaipur',
+        'description' => 'Learn Python scripting for files, Excel, APIs, data processing, scheduling, logging and practical workflow automation.',
+        'category' => 'Python Automation',
+        'related' => ['python-programming-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur', 'data-analytics-power-bi-career-guide-jaipur'],
+    ],
 ];
