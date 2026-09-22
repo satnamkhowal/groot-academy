@@ -237,4 +237,11 @@ return [
         'category' => 'MongoDB & NoSQL',
         'related' => ['mern-stack-react-development-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'sql-database-career-guide-jaipur'],
     ],
+    'spring-boot-microservices-career-guide-jaipur' => [
+        'title' => 'Spring Boot and Microservices Career Guidance in Jaipur',
+        'slug' => 'spring-boot-microservices-career-guide-jaipur',
+        'description' => 'Learn Spring Boot, REST APIs, JPA, database integration, validation, security basics and microservices concepts.',
+        'category' => 'Spring Boot & Microservices',
+        'related' => ['java-programming-software-development-jaipur', 'rest-api-development-postman-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
+    ],
 ];
