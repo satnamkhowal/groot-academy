@@ -300,4 +300,11 @@ return [
         'category' => 'Python Automation',
         'related' => ['python-programming-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur', 'data-analytics-power-bi-career-guide-jaipur'],
     ],
+    'fastapi-python-backend-development-career-guide-jaipur' => [
+        'title' => 'FastAPI Python Backend Development Career Guidance in Jaipur',
+        'slug' => 'fastapi-python-backend-development-career-guide-jaipur',
+        'description' => 'Learn FastAPI, REST APIs, request validation, databases, authentication, async concepts and practical Python backend development.',
+        'category' => 'FastAPI & Python Backend',
+        'related' => ['python-programming-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur', 'django-python-web-development-career-guide-jaipur'],
+    ],
 ];
