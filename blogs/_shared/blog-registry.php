@@ -181,4 +181,11 @@ return [
         'category' => 'Python Web Development',
         'related' => ['python-programming-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'sql-database-career-guide-jaipur'],
     ],
+    'deep-learning-neural-networks-career-guide-jaipur' => [
+        'title' => 'Deep Learning and Neural Networks Career Guidance in Jaipur',
+        'slug' => 'deep-learning-neural-networks-career-guide-jaipur',
+        'description' => 'Learn Python, neural networks, TensorFlow, Keras, CNNs, sequence models and practical Deep Learning projects.',
+        'category' => 'Deep Learning',
+        'related' => ['data-science-machine-learning-career-guide-jaipur', 'python-programming-career-guide-jaipur', 'generative-ai-tools-career-guide-jaipur'],
+    ],
 ];
