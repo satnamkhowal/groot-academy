@@ -216,4 +216,11 @@ return [
         'category' => 'API Development',
         'related' => ['full-stack-web-development-career-guide-jaipur', 'php-mysql-backend-development-career-guide-jaipur', 'django-python-web-development-career-guide-jaipur'],
     ],
+    'kubernetes-container-orchestration-career-guide-jaipur' => [
+        'title' => 'Kubernetes and Container Orchestration Career Guidance in Jaipur',
+        'slug' => 'kubernetes-container-orchestration-career-guide-jaipur',
+        'description' => 'Learn containers, pods, deployments, services, configuration, scaling and practical Kubernetes workflows.',
+        'category' => 'Kubernetes & Containers',
+        'related' => ['devops-ci-cd-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur', 'linux-system-administration-career-guide-jaipur'],
+    ],
 ];
