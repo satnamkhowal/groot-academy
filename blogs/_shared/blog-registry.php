@@ -188,4 +188,11 @@ return [
         'category' => 'Deep Learning',
         'related' => ['data-science-machine-learning-career-guide-jaipur', 'python-programming-career-guide-jaipur', 'generative-ai-tools-career-guide-jaipur'],
     ],
+    'linux-system-administration-career-guide-jaipur' => [
+        'title' => 'Linux and System Administration Career Guidance in Jaipur',
+        'slug' => 'linux-system-administration-career-guide-jaipur',
+        'description' => 'Learn Linux commands, users, permissions, processes, networking, services, logs and shell scripting through practical labs.',
+        'category' => 'Linux & System Administration',
+        'related' => ['devops-ci-cd-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur', 'cyber-security-ethical-hacking-career-guide-jaipur'],
+    ],
 ];
