@@ -307,4 +307,11 @@ return [
         'category' => 'FastAPI & Python Backend',
         'related' => ['python-programming-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur', 'django-python-web-development-career-guide-jaipur'],
     ],
+    'computer-vision-opencv-career-guide-jaipur' => [
+        'title' => 'Computer Vision and OpenCV Career Guidance in Jaipur',
+        'slug' => 'computer-vision-opencv-career-guide-jaipur',
+        'description' => 'Learn Python, OpenCV, image processing, video analysis, detection concepts, CNN basics and practical Computer Vision projects.',
+        'category' => 'Computer Vision & OpenCV',
+        'related' => ['deep-learning-neural-networks-career-guide-jaipur', 'data-science-machine-learning-career-guide-jaipur', 'python-programming-career-guide-jaipur'],
+    ],
 ];
