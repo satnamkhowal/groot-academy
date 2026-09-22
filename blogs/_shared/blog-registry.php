@@ -265,4 +265,11 @@ return [
         'category' => 'Firebase & BaaS',
         'related' => ['flutter-mobile-app-development-career-guide-jaipur', 'angular-frontend-development-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
     ],
+    'graphql-api-apollo-career-guide-jaipur' => [
+        'title' => 'GraphQL API and Apollo Career Guidance in Jaipur',
+        'slug' => 'graphql-api-apollo-career-guide-jaipur',
+        'description' => 'Learn GraphQL schemas, queries, mutations, resolvers, Apollo, authentication basics and practical API integration.',
+        'category' => 'GraphQL & APIs',
+        'related' => ['rest-api-development-postman-career-guide-jaipur', 'typescript-modern-javascript-career-guide-jaipur', 'mongodb-nosql-database-career-guide-jaipur'],
+    ],
 ];
