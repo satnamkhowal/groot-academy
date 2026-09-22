@@ -244,4 +244,11 @@ return [
         'category' => 'Spring Boot & Microservices',
         'related' => ['java-programming-software-development-jaipur', 'rest-api-development-postman-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
     ],
+    'typescript-modern-javascript-career-guide-jaipur' => [
+        'title' => 'TypeScript and Modern JavaScript Career Guidance in Jaipur',
+        'slug' => 'typescript-modern-javascript-career-guide-jaipur',
+        'description' => 'Learn modern JavaScript, TypeScript types, interfaces, generics, modules, async code and practical frontend/backend development.',
+        'category' => 'TypeScript & JavaScript',
+        'related' => ['mern-stack-react-development-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
+    ],
 ];
