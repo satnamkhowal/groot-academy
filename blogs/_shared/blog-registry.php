@@ -174,4 +174,11 @@ return [
         'category' => 'Backend Development',
         'related' => ['full-stack-web-development-career-guide-jaipur', 'sql-database-career-guide-jaipur', 'wordpress-website-development-career-guide-jaipur'],
     ],
+    'django-python-web-development-career-guide-jaipur' => [
+        'title' => 'Django and Python Web Development Career Guidance in Jaipur',
+        'slug' => 'django-python-web-development-career-guide-jaipur',
+        'description' => 'Learn Python web development with Django, templates, models, forms, authentication, APIs and practical projects.',
+        'category' => 'Python Web Development',
+        'related' => ['python-programming-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'sql-database-career-guide-jaipur'],
+    ],
 ];
