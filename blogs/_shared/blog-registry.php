@@ -230,4 +230,11 @@ return [
         'category' => 'Docker & Containers',
         'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur'],
     ],
+    'mongodb-nosql-database-career-guide-jaipur' => [
+        'title' => 'MongoDB and NoSQL Database Career Guidance in Jaipur',
+        'slug' => 'mongodb-nosql-database-career-guide-jaipur',
+        'description' => 'Learn MongoDB collections, documents, CRUD, queries, indexing, aggregation and backend database integration.',
+        'category' => 'MongoDB & NoSQL',
+        'related' => ['mern-stack-react-development-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur', 'sql-database-career-guide-jaipur'],
+    ],
 ];
