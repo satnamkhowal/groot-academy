@@ -17,7 +17,7 @@ $collectionSchema = [
     '@type' => 'CollectionPage',
     'name' => 'Groot Academy Career & Technology Blog',
     'url' => 'https://grootacademy.com/blogs/',
-    'description' => 'Practical career guides for coding, Firebase, Angular, TypeScript, Spring Boot, MongoDB, Docker, Kubernetes, REST API Development, Computer Networking, Git and GitHub, Linux, Python web development, backend development, Deep Learning, Software Testing, WordPress, Graphic Design, Video Editing, Mobile App Development, Cyber Security, DevOps, Cloud Computing, data analytics, Business Intelligence, AI and digital marketing in Jaipur.',
+    'description' => 'Practical career guides for coding, GraphQL, Firebase, Angular, TypeScript, Spring Boot, MongoDB, Docker, Kubernetes, REST API Development, Computer Networking, Git and GitHub, Linux, Python web development, backend development, Deep Learning, Software Testing, WordPress, Graphic Design, Video Editing, Mobile App Development, Cyber Security, DevOps, Cloud Computing, data analytics, Business Intelligence, AI and digital marketing in Jaipur.',
     'inLanguage' => 'en-IN',
     'mainEntity' => [
         '@type' => 'ItemList',
@@ -31,13 +31,13 @@ $collectionSchema = [
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Technology & Career Guides in Jaipur | Groot Academy Blog</title>
-    <meta name="description" content="Explore Groot Academy guides for coding, Kubernetes, container orchestration, REST API Development, Postman, Computer Networking, Git, GitHub, Linux, system administration, Django, Python web development, Deep Learning, PHP, MySQL, Software Testing, Cyber Security, DevOps, Cloud Computing, data analytics, Power BI and AI in Jaipur.">
+    <meta name="description" content="Explore Groot Academy guides for coding, GraphQL, Apollo, Firebase, Angular, TypeScript, REST API Development, Postman, Spring Boot, MongoDB, Docker, Kubernetes, Computer Networking, Git, GitHub, Linux, Django, Python web development, PHP, MySQL, Software Testing, Cyber Security, DevOps, Cloud Computing, data analytics, Power BI and AI in Jaipur.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://grootacademy.com/blogs/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Groot Academy">
     <meta property="og:title" content="Technology & Career Guides in Jaipur | Groot Academy Blog">
-    <meta property="og:description" content="Practical guides for students exploring coding, Firebase, Angular, TypeScript, modern JavaScript, Spring Boot, microservices, MongoDB, NoSQL, Docker, Kubernetes, REST APIs, Postman, Computer Networking, Git, GitHub, Linux, Django, Python web development, PHP, MySQL, Software Testing, Cyber Security, DevOps, Cloud Computing, analytics, Power BI, AI and digital careers.">
+    <meta property="og:description" content="Practical guides for students exploring coding, GraphQL, Apollo, Firebase, Angular, TypeScript, modern JavaScript, Spring Boot, microservices, MongoDB, NoSQL, Docker, Kubernetes, REST APIs, Postman, Computer Networking, Git, GitHub, Linux, Django, Python web development, PHP, MySQL, Software Testing, Cyber Security, DevOps, Cloud Computing, analytics, Power BI, AI and digital careers.">
     <meta property="og:url" content="https://grootacademy.com/blogs/">
     <link rel="stylesheet" href="/blogs/_shared/assets/blog.css">
     <script type="application/ld+json"><?= json_encode($collectionSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
