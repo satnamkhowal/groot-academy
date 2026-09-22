@@ -195,4 +195,11 @@ return [
         'category' => 'Linux & System Administration',
         'related' => ['devops-ci-cd-career-guide-jaipur', 'cloud-computing-aws-career-guide-jaipur', 'cyber-security-ethical-hacking-career-guide-jaipur'],
     ],
+    'git-github-version-control-career-guide-jaipur' => [
+        'title' => 'Git and GitHub Version Control Career Guidance in Jaipur',
+        'slug' => 'git-github-version-control-career-guide-jaipur',
+        'description' => 'Learn repositories, commits, branches, merges, pull requests, conflict resolution and collaborative coding workflows.',
+        'category' => 'Git & GitHub',
+        'related' => ['software-development-coding-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur', 'full-stack-web-development-career-guide-jaipur'],
+    ],
 ];
