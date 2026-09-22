@@ -286,4 +286,11 @@ return [
         'category' => 'React Native',
         'related' => ['typescript-modern-javascript-career-guide-jaipur', 'firebase-backend-as-a-service-career-guide-jaipur', 'flutter-mobile-app-development-career-guide-jaipur'],
     ],
+    'nodejs-express-backend-development-career-guide-jaipur' => [
+        'title' => 'Node.js and Express Backend Development Career Guidance in Jaipur',
+        'slug' => 'nodejs-express-backend-development-career-guide-jaipur',
+        'description' => 'Learn Node.js, Express, REST APIs, middleware, authentication, MongoDB/SQL integration and practical backend development.',
+        'category' => 'Node.js & Express',
+        'related' => ['rest-api-development-postman-career-guide-jaipur', 'mongodb-nosql-database-career-guide-jaipur', 'typescript-modern-javascript-career-guide-jaipur'],
+    ],
 ];
