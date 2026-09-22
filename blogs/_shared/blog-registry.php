@@ -258,4 +258,11 @@ return [
         'category' => 'Angular Development',
         'related' => ['typescript-modern-javascript-career-guide-jaipur', 'web-designing-frontend-development-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
     ],
+    'firebase-backend-as-a-service-career-guide-jaipur' => [
+        'title' => 'Firebase and Backend-as-a-Service Career Guidance in Jaipur',
+        'slug' => 'firebase-backend-as-a-service-career-guide-jaipur',
+        'description' => 'Learn Firebase Authentication, Firestore, Storage, Hosting, Security Rules and practical cloud-connected application development.',
+        'category' => 'Firebase & BaaS',
+        'related' => ['flutter-mobile-app-development-career-guide-jaipur', 'angular-frontend-development-career-guide-jaipur', 'rest-api-development-postman-career-guide-jaipur'],
+    ],
 ];
