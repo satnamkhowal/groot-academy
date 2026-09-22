@@ -17,7 +17,7 @@ $collectionSchema = [
     '@type' => 'CollectionPage',
     'name' => 'Groot Academy Career & Technology Blog',
     'url' => 'https://grootacademy.com/blogs/',
-    'description' => 'Practical career guides for coding, Docker, Kubernetes, REST API Development, Computer Networking, Git and GitHub, Linux, Python web development, backend development, Deep Learning, Software Testing, WordPress, Graphic Design, Video Editing, Mobile App Development, Cyber Security, DevOps, Cloud Computing, data analytics, Business Intelligence, AI and digital marketing in Jaipur.',
+    'description' => 'Practical career guides for coding, MongoDB, Docker, Kubernetes, REST API Development, Computer Networking, Git and GitHub, Linux, Python web development, backend development, Deep Learning, Software Testing, WordPress, Graphic Design, Video Editing, Mobile App Development, Cyber Security, DevOps, Cloud Computing, data analytics, Business Intelligence, AI and digital marketing in Jaipur.',
     'inLanguage' => 'en-IN',
     'mainEntity' => [
         '@type' => 'ItemList',
@@ -37,7 +37,7 @@ $collectionSchema = [
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Groot Academy">
     <meta property="og:title" content="Technology & Career Guides in Jaipur | Groot Academy Blog">
-    <meta property="og:description" content="Practical guides for students exploring coding, Docker, containerization, Kubernetes, REST APIs, Postman, Computer Networking, Git, GitHub, Linux, system administration, Django, Python web development, Deep Learning, PHP, MySQL, Software Testing, Cyber Security, DevOps, Cloud Computing, analytics, Power BI, AI and digital careers.">
+    <meta property="og:description" content="Practical guides for students exploring coding, MongoDB, NoSQL, Docker, Kubernetes, REST APIs, Postman, Computer Networking, Git, GitHub, Linux, Django, Python web development, PHP, MySQL, Software Testing, Cyber Security, DevOps, Cloud Computing, analytics, Power BI, AI and digital careers.">
     <meta property="og:url" content="https://grootacademy.com/blogs/">
     <link rel="stylesheet" href="/blogs/_shared/assets/blog.css">
     <script type="application/ld+json"><?= json_encode($collectionSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
