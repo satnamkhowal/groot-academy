@@ -321,4 +321,11 @@ return [
         'category' => 'Helm & Kubernetes',
         'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'docker-containerization-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
     ],
+    'jenkins-ci-cd-automation-career-guide-jaipur' => [
+        'title' => 'Jenkins CI/CD Automation Career Guidance in Jaipur',
+        'slug' => 'jenkins-ci-cd-automation-career-guide-jaipur',
+        'description' => 'Learn Jenkins pipelines, Jenkinsfile, Git integration, builds, testing, Docker and practical CI/CD automation.',
+        'category' => 'Jenkins & CI/CD',
+        'related' => ['devops-ci-cd-career-guide-jaipur', 'docker-containerization-career-guide-jaipur', 'git-github-version-control-career-guide-jaipur'],
+    ],
 ];
