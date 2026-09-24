@@ -314,4 +314,11 @@ return [
         'category' => 'Computer Vision & OpenCV',
         'related' => ['deep-learning-neural-networks-career-guide-jaipur', 'data-science-machine-learning-career-guide-jaipur', 'python-programming-career-guide-jaipur'],
     ],
+    'helm-kubernetes-package-manager-career-guide-jaipur' => [
+        'title' => 'Helm and Kubernetes Package Management Career Guidance in Jaipur',
+        'slug' => 'helm-kubernetes-package-manager-career-guide-jaipur',
+        'description' => 'Learn Helm charts, values, templates, releases, repositories, upgrades, rollbacks and reusable Kubernetes deployments.',
+        'category' => 'Helm & Kubernetes',
+        'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'docker-containerization-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
+    ],
 ];
