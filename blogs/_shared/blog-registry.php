@@ -566,4 +566,11 @@ return [
         'category' => 'OpenTelemetry & Observability',
         'related' => ['prometheus-grafana-devops-monitoring-career-guide-jaipur','spring-boot-microservices-career-guide-jaipur','kubernetes-container-orchestration-career-guide-jaipur'],
     ],
+    'platform-engineering-internal-developer-platform-career-guide-jaipur' => [
+        'title' => 'Platform Engineering & Internal Developer Platform Career Guidance in Jaipur',
+        'slug' => 'platform-engineering-internal-developer-platform-career-guide-jaipur',
+        'description' => 'Learn platform engineering, internal developer platforms, golden paths, self-service workflows, automation and developer experience.',
+        'category' => 'Platform Engineering',
+        'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'terraform-infrastructure-as-code-devops-career-guide-jaipur', 'argocd-gitops-kubernetes-continuous-delivery-career-guide-jaipur'],
+    ],
 ];
