@@ -356,4 +356,11 @@ return [
         'category' => 'SonarQube & DevSecOps',
         'related' => ['jenkins-ci-cd-automation-career-guide-jaipur', 'github-actions-ci-cd-workflow-automation-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
     ],
+    'trivy-container-security-devsecops-vulnerability-scanning-career-guide-jaipur' => [
+        'title' => 'Trivy, Container Security & DevSecOps Vulnerability Scanning Career Guidance in Jaipur',
+        'slug' => 'trivy-container-security-devsecops-vulnerability-scanning-career-guide-jaipur',
+        'description' => 'Learn Trivy container scanning, dependency checks, IaC misconfiguration scanning and CI/CD security gates.',
+        'category' => 'Trivy & DevSecOps Security',
+        'related' => ['docker-containerization-career-guide-jaipur', 'kubernetes-container-orchestration-career-guide-jaipur', 'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur'],
+    ],
 ];
