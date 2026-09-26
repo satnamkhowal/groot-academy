@@ -377,4 +377,11 @@ return [
         'category' => 'OWASP ZAP & DAST',
         'related' => ['cyber-security-ethical-hacking-career-guide-jaipur', 'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur', 'trivy-container-security-devsecops-vulnerability-scanning-career-guide-jaipur'],
     ],
+    'nginx-reverse-proxy-load-balancing-web-server-career-guide-jaipur' => [
+        'title' => 'Nginx, Reverse Proxy & Load Balancing Career Guidance in Jaipur',
+        'slug' => 'nginx-reverse-proxy-load-balancing-web-server-career-guide-jaipur',
+        'description' => 'Learn Nginx web-server setup, reverse proxy, load balancing, SSL, caching and practical deployment workflows.',
+        'category' => 'Nginx & Web Infrastructure',
+        'related' => ['linux-system-administration-career-guide-jaipur', 'docker-containerization-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
+    ],
 ];
