@@ -363,4 +363,11 @@ return [
         'category' => 'Trivy & DevSecOps Security',
         'related' => ['docker-containerization-career-guide-jaipur', 'kubernetes-container-orchestration-career-guide-jaipur', 'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur'],
     ],
+    'snyk-dependency-security-sca-devsecops-career-guide-jaipur' => [
+        'title' => 'Snyk, Dependency Security & Software Composition Analysis Career Guidance in Jaipur',
+        'slug' => 'snyk-dependency-security-sca-devsecops-career-guide-jaipur',
+        'description' => 'Learn Snyk dependency scanning, software composition analysis, open-source risk, license checks and CI/CD integration.',
+        'category' => 'Snyk & Dependency Security',
+        'related' => ['trivy-container-security-devsecops-vulnerability-scanning-career-guide-jaipur', 'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur', 'github-actions-ci-cd-workflow-automation-career-guide-jaipur'],
+    ],
 ];
