@@ -328,4 +328,11 @@ return [
         'category' => 'Jenkins & CI/CD',
         'related' => ['devops-ci-cd-career-guide-jaipur', 'docker-containerization-career-guide-jaipur', 'git-github-version-control-career-guide-jaipur'],
     ],
+    'argocd-gitops-kubernetes-continuous-delivery-career-guide-jaipur' => [
+        'title' => 'Argo CD, GitOps and Kubernetes Continuous Delivery Career Guidance in Jaipur',
+        'slug' => 'argocd-gitops-kubernetes-continuous-delivery-career-guide-jaipur',
+        'description' => 'Learn GitOps, Argo CD sync, rollback, health checks, Helm integration and Kubernetes continuous delivery.',
+        'category' => 'Argo CD & GitOps',
+        'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'helm-kubernetes-package-manager-career-guide-jaipur', 'jenkins-ci-cd-automation-career-guide-jaipur'],
+    ],
 ];
