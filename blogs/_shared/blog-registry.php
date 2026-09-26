@@ -335,4 +335,11 @@ return [
         'category' => 'Argo CD & GitOps',
         'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'helm-kubernetes-package-manager-career-guide-jaipur', 'jenkins-ci-cd-automation-career-guide-jaipur'],
     ],
+    'hashicorp-vault-secrets-management-devops-security-career-guide-jaipur' => [
+        'title' => 'HashiCorp Vault, Secrets Management & DevOps Security Career Guidance in Jaipur',
+        'slug' => 'hashicorp-vault-secrets-management-devops-security-career-guide-jaipur',
+        'description' => 'Learn Vault policies, tokens, secrets engines, dynamic credentials, encryption and secure Kubernetes/CI-CD integrations.',
+        'category' => 'Vault & DevOps Security',
+        'related' => ['terraform-infrastructure-as-code-devops-career-guide-jaipur', 'kubernetes-container-orchestration-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
+    ],
 ];
