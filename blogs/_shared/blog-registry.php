@@ -349,4 +349,11 @@ return [
         'category' => 'GitHub Actions & CI/CD',
         'related' => ['git-github-version-control-career-guide-jaipur', 'jenkins-ci-cd-automation-career-guide-jaipur', 'docker-containerization-career-guide-jaipur'],
     ],
+    'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur' => [
+        'title' => 'SonarQube, Code Quality & DevSecOps Career Guidance in Jaipur',
+        'slug' => 'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur',
+        'description' => 'Learn static code analysis, bugs, code smells, security hotspots, quality gates and CI/CD integration with SonarQube.',
+        'category' => 'SonarQube & DevSecOps',
+        'related' => ['jenkins-ci-cd-automation-career-guide-jaipur', 'github-actions-ci-cd-workflow-automation-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
+    ],
 ];
