@@ -370,4 +370,11 @@ return [
         'category' => 'Snyk & Dependency Security',
         'related' => ['trivy-container-security-devsecops-vulnerability-scanning-career-guide-jaipur', 'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur', 'github-actions-ci-cd-workflow-automation-career-guide-jaipur'],
     ],
+    'owasp-zap-dast-web-application-security-testing-career-guide-jaipur' => [
+        'title' => 'OWASP ZAP, DAST & Web Application Security Testing Career Guidance in Jaipur',
+        'slug' => 'owasp-zap-dast-web-application-security-testing-career-guide-jaipur',
+        'description' => 'Learn OWASP ZAP proxy testing, passive and active scanning, alert review and CI/CD web security checks.',
+        'category' => 'OWASP ZAP & DAST',
+        'related' => ['cyber-security-ethical-hacking-career-guide-jaipur', 'sonarqube-code-quality-devsecops-static-analysis-career-guide-jaipur', 'trivy-container-security-devsecops-vulnerability-scanning-career-guide-jaipur'],
+    ],
 ];
