@@ -342,4 +342,11 @@ return [
         'category' => 'Vault & DevOps Security',
         'related' => ['terraform-infrastructure-as-code-devops-career-guide-jaipur', 'kubernetes-container-orchestration-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
     ],
+    'github-actions-ci-cd-workflow-automation-career-guide-jaipur' => [
+        'title' => 'GitHub Actions CI/CD & Workflow Automation Career Guidance in Jaipur',
+        'slug' => 'github-actions-ci-cd-workflow-automation-career-guide-jaipur',
+        'description' => 'Learn GitHub Actions workflows, jobs, runners, secrets, automated testing, Docker builds and deployment pipelines.',
+        'category' => 'GitHub Actions & CI/CD',
+        'related' => ['git-github-version-control-career-guide-jaipur', 'jenkins-ci-cd-automation-career-guide-jaipur', 'docker-containerization-career-guide-jaipur'],
+    ],
 ];
