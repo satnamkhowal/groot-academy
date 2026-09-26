@@ -384,4 +384,11 @@ return [
         'category' => 'Nginx & Web Infrastructure',
         'related' => ['linux-system-administration-career-guide-jaipur', 'docker-containerization-career-guide-jaipur', 'devops-ci-cd-career-guide-jaipur'],
     ],
+    'istio-service-mesh-kubernetes-traffic-management-career-guide-jaipur' => [
+        'title' => 'Istio Service Mesh & Kubernetes Traffic Management Career Guidance in Jaipur',
+        'slug' => 'istio-service-mesh-kubernetes-traffic-management-career-guide-jaipur',
+        'description' => 'Learn Istio traffic routing, retries, circuit breaking, mTLS, observability and Kubernetes microservices networking.',
+        'category' => 'Istio & Service Mesh',
+        'related' => ['kubernetes-container-orchestration-career-guide-jaipur', 'helm-kubernetes-package-manager-career-guide-jaipur', 'argocd-gitops-kubernetes-continuous-delivery-career-guide-jaipur'],
+    ],
 ];
